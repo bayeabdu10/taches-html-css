@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulaire</title>
+</head>
+<body>   
+        <form action="" method="post">
+            <div class="image">
+                <img src="images/homme.jpg" alt="un homme" >
+            </div>
+            
+            <div class="formulaire">
+                <h1>REGISTRE FORM</h1>
+                 <div class="names">
+                    <label for="firstname"></label>
+                    <input type="text" name="firstname" id="firstname" placeholder="firstname" autocomplete>
+
+                    <label for="lastname"></label>
+                    <input type="text" name="lastname" id="lastname" placeholder="last name" autocomplete><br>
+                </div>
+
+                <div class="formulaire1">
+                        <label for="username"></label>
+                    <input type="text" name="username" id="username" placeholder="Username"><br>
+
+                    <label for="mail"></label>
+                    <input type="email" name="mail" id="mail" placeholder="Email address"><br>
+
+                    <label for="gender"></label>
+                    <select name="gender" id="gender">
+                        <option value="">Gender</option>
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                        <option value="other">other</option>
+                        <option value="prefer_not_say">prefer not say</option>
+                    </select>
+
+                    <label for="passe"></label>
+                    <input type="password" name="passe" id="passe" placeholder="Password"><br>
+
+                    <label for="confirm"></label>
+                    <input type="password" name="confirm" id="confirm" placeholder="Confirm password"><br>
+
+                    <div class="bouton">
+                        <input type="submit" value="register">
+                    </div>
+            </div>
+        </form>
+</body>
+</html>

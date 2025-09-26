@@ -1,0 +1,357 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header .tete{
+    width: 100%;
+    height: 105px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.tete ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.tete li{
+    list-style-type: none;
+}
+.tete a{
+    text-decoration: none;
+    color: black;
+    font-size:20px ;
+}
+.sec1{
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(to right, rgb(124, 208, 200),rgb(7, 71, 71));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.logo img{
+    font-weight: 80px;
+    height: 80px;
+}
+.middle{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.middle .para1{
+    display: inline;
+    font-size: 30px;
+    background-color: rgb(55, 46, 46);
+    padding: 15px;
+}
+.middle .para2 {
+    text-align: center;
+}
+.sec2{
+    width: 100%;
+    height: 500px;
+    border-top: 5px solid grey; 
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.sec2 .image1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 100px;
+    width: 15%;
+}
+.sec2 .image2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 100px;
+    width: 15%;
+}
+.sec2 .image3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 100px;
+    width: 15%;
+}
+
+.image1  h4 {
+    text-align: center;
+    margin-top: 15px;
+}
+.image2 h4{
+    text-align: center;
+    margin-top: 15px;
+}
+.image3 h4{
+    text-align: center;
+    margin-top: 15px;
+}
+.image1  p {
+    text-align: center;
+    margin-top: 15px;
+}
+.image2 p{
+    text-align: center;
+    margin-top: 15px;
+}
+.image3 p{
+    text-align: center;
+    margin-top: 15px;
+}
+.sec3{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(228, 224, 224, 0.8);
+    gap: 50px;
+}
+.sec3 h1{
+    font-size: 30px;
+}
+.menu1 ul{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+.menu1 li{
+    list-style-type: none;
+}
+.sec03{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr;
+    height: 800px;
+}
+.box{
+    width: 360px;
+    height: 350px;
+}
+.sec03 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sec4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+.sec4 h1{
+    font-size: 40px;
+}
+.images_group1{
+    display:flex ;
+    flex-direction: row;
+    margin-left: 100px;
+}
+.images_group2{
+    display:flex ;
+    flex-direction: row;
+    margin-left: 100px;
+}
+.sec4 img{
+    width: 70%;
+}
+.sec5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    background-color: rgb(90, 134, 116);
+    height: 900px;
+}
+.sec5 h1{
+    margin-top: 0px;
+    font-size: 40px;
+}
+.sec5 p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.portrait_group{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.portrait1{
+    border: 0px solid rgb(90, 134, 116);
+    width: 100%;
+    height: 500px;
+}
+.portrait1 .haut{
+    width: 100%;
+    height: 70%;
+    background-image: url(homm1.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+.haut img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.portrait1 .bas{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bas p{
+    font-size: 25px;
+}
+
+.sec6{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.sec6  img{
+    width: 70px;
+}
+.sec6 p{
+    text-align: center;
+    font-size: 12px;
+}
+.sec7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(209, 209, 209,0.5);
+}
+.sec7 h3{
+    margin-top: 40px;
+}
+.sec7 .partenaire{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+.sec7 .copy{
+    margin-bottom: 100px;
+}
+
+
+@media (max-width: 700px){
+    .tete ul{
+        gap: 10px;
+    }
+    .tete a{
+        font-size: 12px;
+    }
+    .middle .para1{
+        font-size: 25px;
+    }
+    .middle .para2{
+        font-size: 13px;
+    }
+    .sec2 {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        height: 1900px;
+    }
+    .image1 p{
+        font-size: 20px;
+        width: 300px;
+        text-align: center;
+         margin-left: -100px;
+    }
+    .image1 h4{
+        width:200px ;
+        margin-left: -50px;
+    }
+    .sec2 img{
+        width: 200px;
+        margin-left: -70px;
+    }
+    .image2 p{
+        font-size: 20px;
+        width: 300px;
+        text-align: center;
+        margin-left: -100px;
+    }
+    .image2 h4{
+        margin-left: -30px;
+    }
+    .image3 p{
+        font-size: 20px;
+        width: 300px;
+        text-align: center;
+         margin-left: -100px;
+    }
+    .menu1 ul{
+        font-size: 10px;
+        gap: 15px;
+    }
+    .sec03{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        height: 2900px;
+    }
+   
+    .sec4 p{
+        width: 80%;
+        text-align: center;
+    }
+    .sec5{
+        height: 2700px;
+    }
+    .portrait_group{
+        flex-direction: column;
+        width: 80%;
+        margin-bottom: 400px;
+    }
+    .sec6 p{
+        width: 80%;
+        text-align: center;
+    }
+    .sec7 .partenaire{
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    
+}

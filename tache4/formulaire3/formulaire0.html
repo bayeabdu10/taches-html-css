@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire0.css">
+    <title>dinner booking</title>
+</head>
+<body>
+    <form action="" method="post">
+        <div class="left">
+            <img src="dinner.jpg" alt="">
+        </div>
+        <div class="right">
+            <h2>Booking place for your dinner! </h2>
+            <label for="nom"></label>
+            <input type="text" name="nom" id="nom" placeholder="Your name" autocomplete="Abdoulahi" autofocus>
+
+            <label for="num"></label>
+            <input type="number" name="num" id="num" placeholder="Your phone number">
+
+            <label for="temps"></label>
+            <select name="temps" id="temps">
+                <option value="">Time</option>
+                <option value="">22:00</option>
+                <option value="">23:00</option>
+            </select>
+
+            <label for="food"></label>
+            <select name="food" id="food" >
+                <option>Food</option>
+                <option>Pizza</option>
+                <option>Poulet</option>
+            </select>
+            <label for="person">Select your dinning place</label>
+            <div class="persons">
+                <button type="button">2</button>
+                <div class="div-choice">
+                    <button type="button">4</button>
+                    <span>persons</span>
+                </div>
+                <button type="button">6</button>
+                <button type="button">8</button>
+                <button type="button">10</button>
+            </div>
+            <div class="bouton">
+                <input type="submit" value="Book now">
+                <p>Verify your booking into your phone</p>
+            </div>
+        </div>
+        
+    </form>
+</body>
+</html>

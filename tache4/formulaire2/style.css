@@ -1,0 +1,150 @@
+body{
+    height: 100vh;
+    background: linear-gradient(to right, rgb(15, 15, 55), rgb(237, 99, 122));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 900px;
+    height: 600px;
+    background-color: rgb(23, 23, 64);
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.form_group{
+    margin-left: -140px;
+}
+.form_group input{
+    margin-left: 100px;
+}
+.form_group label{
+    color: white;
+
+}
+.form_group1{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.form_group1 label{
+    margin-left: -210px;
+}
+#people{
+    margin-left: 90px;
+}
+.form_group2{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    
+}
+.form_group2 label{
+    margin-left: -20px;
+}
+.form_group2 input{
+    margin-left: 100px;
+    width: 250px;
+}
+.form_group3{
+    display: flex;
+    flex-direction: row;
+    color: white;  
+    margin-left: -20px;
+}
+.form_group3 input{
+    width: 250px;
+    margin-left: 100px;
+}
+.form_group4{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: -20px;
+}
+.form_group4 input{
+    width: 250px;
+    margin-left: 90px;
+}
+.form_group5{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: -18px;
+}
+.form_group5 textarea{
+    width: 250px;
+    margin-left: 80px;
+}
+.right{
+    width:50% ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(dinner.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+}
+.right p{
+    background-color:rgba(237, 99, 122, 0.8);
+    margin-top: 480px;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+select{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+}
+
+input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid white;
+    margin-left: 50px;
+}
+#nom::placeholder{
+    color: white;
+    font-weight: bold;
+}
+#price::placeholder{
+    color: white;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    color: rgb(237, 99, 122) ;
+    font-size: 30px;
+}
+textarea {
+    border: none;
+    outline: none;
+    margin: 10px;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
+.bouton{
+    margin-right: 200px;
+}
+.bouton input{
+    padding: 15px 50px;
+    background: linear-gradient(to bottom, rgb(237, 99, 122), rgb(23, 23, 64));
+    border: none;
+}

@@ -1,0 +1,120 @@
+body{
+    height: 100vh;
+    background: linear-gradient(to right, rgb(44, 13, 13), rgb(180, 142, 90));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 1200px;
+    height: 790px;
+    background-color: rgb(44, 13, 13);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    width: 55%;
+    height: 100%;
+}
+.left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+    gap: 30px;
+    color: white;
+}
+input{
+    width: 75%;
+    border: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
+select{
+    width: 76%;
+    border: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
+#nom::placeholder{
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+#num::placeholder{
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+#temps{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+#food{
+    font-size: 15px;
+    font-weight: 500px;
+    color: white;
+}
+.persons{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: space-around;
+}
+button{
+    border-radius: 50%;
+    width: 80px;
+    height: 50px;
+}
+.persons button:hover{
+    background-color: rgb(209, 160, 63);
+    transition: 0.3s;
+}
+.bouton{
+    margin-right: 35%;
+}
+.div-choice{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(180, 142, 90);
+    border-radius: 50px;
+    display: flex;
+    left: 0;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    color: black;
+}
+.div-choice span{
+    font-weight: bold;
+}
+.div-choice button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 0px;
+}
+.bouton input{
+    padding: 15px 10px;
+    color: white;
+    background-color:rgb(180, 142, 90) ;
+    border: none;
+    font-weight: bold;
+}
+.bouton p{
+    color: rgb(180, 142, 90);
+}

@@ -1,0 +1,78 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/homme.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 900px;
+    height: 600px;
+    background-color: white;
+}
+form .image{
+    width: 50%;
+    height: 96%;
+    margin-left: 10px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.formulaire{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+h1{
+    text-align: center;
+}
+.names{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.formulaire1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+select{
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    color: grey;
+    font-weight: bold;
+}
+.bouton{
+    display: flex;
+    justify-content: center;
+}
+.bouton input{
+    text-align: center;
+    padding: 10px 20px;
+    border: 0px;
+    color: white;
+    background-color: rgba(56, 36, 36, 0.933);
+}
+#passe{
+    margin-top: 20px;
+}

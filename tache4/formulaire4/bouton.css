@@ -1,0 +1,69 @@
+body {
+      font-family: Arial, sans-serif;
+    }
+
+    .payment-container {
+      margin: 30px;
+    }
+
+    .payment-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .payment-header h3 {
+      margin: 0;
+      font-weight: bold;
+    }
+
+    .payment-header a {
+      font-size: 14px;
+      color: gray;
+      text-decoration: none;
+      border-bottom: 1px solid gray;
+    }
+
+    .payment-options {
+      display: flex;
+      gap: 30px; /* espace entre les boutons */
+    }
+
+    /* Masquer le radio natif */
+    .payment-options input[type="radio"] {
+      display: none;
+    }
+
+    /* Style du label */
+    .payment-options label {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    /* Cercle du bouton */
+    .custom-radio {
+      width: 18px;
+      height: 18px;
+      border: 2px solid gray;
+      border-radius: 50%;
+      margin-right: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Rond vert quand sélectionné */
+    .payment-options input[type="radio"]:checked + label .custom-radio {
+      border-color: #06a763;
+    }
+
+    .payment-options input[type="radio"]:checked + label .custom-radio::after {
+      content: "";
+      width: 10px;
+      height: 10px;
+      background: #06a763;
+      border-radius: 50%;
+    }
