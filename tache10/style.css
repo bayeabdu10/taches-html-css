@@ -7,6 +7,8 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     overflow-x: hidden;
 }
+
+/*entete*/
 header{
     width: 100%;
     height: 700px;
@@ -50,6 +52,8 @@ header{
     position: relative;
     color: white;
 }
+
+/*toggle-menu*/
 .toggle-menu{
     gap: 10px;
     display: none;
@@ -78,6 +82,8 @@ header{
     width: 15px;
     margin-left: 10px;
 }
+/*fin-toggle-menu*/
+
 .menu ul{
     display: flex;
     flex-direction: row;
@@ -96,6 +102,9 @@ header{
     border-bottom: 2px solid aqua;
     transition: 0.2s ease;
 }
+/*fin-menu*/
+
+/*milieu-de-entete*/
 .middle{
     margin-top: 100px;
     display: flex;
@@ -121,6 +130,7 @@ header{
     color: grey;
     text-align: center;
 }
+
 /*design-lef*/
 .first-red{
     position: absolute;
@@ -217,6 +227,8 @@ header{
     height: 110px;
     border-top-right-radius: 100%;
 }
+
+/*design-right*/
 .head-right{
     position: absolute;
     right: 0;
@@ -294,8 +306,8 @@ header{
     border-bottom-right-radius: 100%;
 }
 .jaune3{
-    width: 80px;
-    height: 80px;
+    width: 110px;
+    height: 110px;
     border-radius: 100%;
     border: 15px solid yellow;
     background: url(image/boy.jpg);
@@ -314,6 +326,7 @@ header{
     border-bottom-right-radius: 100%;
     background-color:rgb(241, 85, 85) ;
 }
+
 .lorem1{
     float: right;
     width: 300px;
@@ -330,6 +343,8 @@ header{
     position: absolute;
     border-radius: 10px;
 }
+
+/*first-section*/
 .sec1{
     width: 100%;
     display: flex;
@@ -511,6 +526,8 @@ header{
     border-radius: 10px;
     margin-left: 20px;
 }
+
+/*second-section*/
 .thirth-design{
     display: flex;
     flex-direction: column;
@@ -575,6 +592,8 @@ header{
     background-color: yellow;
     border-bottom-right-radius: 100%;
 }
+
+/* thirth-section */
 .sec3{
     width: 100%;
     margin-left: 150px;
@@ -669,6 +688,8 @@ header{
     color: red;
     font-size: 30px;
 }
+
+/* fourth-section */
 .sec4{
     width: 100%;
     display: flex;
@@ -787,6 +808,7 @@ header{
     border-bottom-left-radius: 100%;
 }
 
+/* fifth-section */
 .sec5{
     width: 85%;
     height: 350px;
@@ -857,6 +879,8 @@ header{
     background-color: rgb(241, 85, 85);
     border-top-left-radius: 100%;
 } 
+
+/* sixth-section */
 .sec6{
     display: flex;
     justify-content: space-around;
@@ -893,6 +917,8 @@ header{
     transform: translateX(1rem);
     
 }
+
+/* pied-de-page */
 footer{
     margin-top: 200px;
     width: 100%;
@@ -1020,11 +1046,14 @@ footer{
     .middle{
         width: 90%;
         gap: 50px;
+        text-align: center;
     }
+
     .sec1{
         width: 1000px;
         margin-top: 100px;
         flex-direction: column;
+        text-align: center;
     }
     .left-sec1{
         margin-left: 3%;
